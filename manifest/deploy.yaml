@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: <your-docker-image>  # Replace with your Docker image URL
+        image: gcr.io/xenon-mantis-384806/samiksha  # Replace with your Docker image URL
         ports:
         - containerPort: 8000
 
